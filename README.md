@@ -55,6 +55,7 @@ npm install
 Da unser Projekt ist in der Mobile-Ansicht, soll es am besten in der Mobile-Resolution aussehen.
 
 ```
+cd src/2gather/
 npm run dev
 ```
 
