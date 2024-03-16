@@ -42,15 +42,15 @@ Eine Web Anwendung, die es ermöglicht anhand von gleichen Interessen Freunde zu
 
 *Was hatten Sie sich vorgenommen, was haben Sie geschafft, was warum nicht? Was ging gut mit dem von Ihnen gewählten Werkzeug, was nervte/frustrierte? Was ging schwerer als erwartet und welcher Trick hat geholfen?*
  
-# Getting Started
+# Los geht's
 
-## Dependency install
+## Dependency installieren
 
 ```
 npm install
 ```
 
-## project run
+## Project ausführen
 
 Da unser Projekt ist in der Mobile-Ansicht, soll es am besten in der Mobile-Resolution aussehen.
 
