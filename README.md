@@ -58,4 +58,10 @@ Da unser Projekt ist in der Mobile-Ansicht, soll es am besten in der Mobile-Reso
 npm run dev
 ```
 
+## Login Zugangsdaten
+
+```
+username: xBobx
+password: bobby
+```
 
