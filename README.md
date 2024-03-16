@@ -66,3 +66,6 @@ username: xBobx
 password: bobby
 ```
 
+## Prototyp
+
+https://www.figma.com/file/LaqDxcnIwnpONQZ24D0rhN/2Gather-Projekt?type=design&mode=design&t=0fxNsMkrXvQ39fCM-1
