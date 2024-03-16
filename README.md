@@ -1,29 +1,61 @@
-# 2gather
+# 2Gather
 
-This template should help get you started developing with Vue 3 in Vite.
+## Vision
+Unsere Web-App ist für Leute junge bis mittlere Erwachsene die Schwierigkeiten haben neue Menschen kennenzulernen oder Anschluss zu finden sei es, dass Infrakstrukturen in Form von Stammbars oder Freundeskreisen während Corona wegefallen sind, man in ein neues Umfeld gezogen ist oder man schlichtweg Interessen verfolgt die sonst niemend im Freundekreis teilt.
 
-## Recommended IDE Setup
+Jedoch ist Sie auch für Menschen gedacht, welche gerne spontan Wen neues kennenlernen möchten sei es Beispielsweise:
+    Man möchte die Wartezeit am Flughafen oder Bahnhof überbrücken. Unsere Web-Applikation "2Gather" ist eine Soziale Plattform mit dem Alleinstellungsmerkmal, dass der Fokus auf Gemeinsamkeiten liegt. 
+Im Gegensatz zu Marktkonkurrenten wie Tinder und Lovoo verzichten wir bewusst auf Profilbilder, Namen und Alter in den Angaben der User, damit wollen wir weg von dem Oberflächlichen und romantischen Dating nutzen, und freundschafliche und Interessenbasierende Beziehungen in den Vordergrund stellen, so dass auch Leute die nicht nach einer romantischen Beziehung suchen oder sich bereits in einer befinden unsere Plattform voll nutzen können. 
+Umsetzen wollen wir das mit einem Algorithmus der Überschneidungen in den Angaben und Interessen der Nutzer findet und diese zusammen führt.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+:rocket: Eine Web Anwendung, die es ermöglicht anhand von gleichen Interessen Freunde zu finden. Anonymität liegt dabei anfangs im Fokus
 
-## Customize configuration
+:busts_in_silhouette: Benutzer: Junge Erwachsene bis Mittlere Erwachsene (18 - 40 Jahre).
+    Offene Menschen mit Begeisterung für ihre Interessen.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+:heart: Schlichtest Design für eine einfache Bedienung.
+    Anfängliche Anonymität, um Interessen in den Fokus bringen.
 
-## Project Setup
+:gift: User und Website Daten werden in einer Datenbank gespeichert.
+    Eine CatchUp chatting web-App.
+    Benutzereigene Profilerstellung
 
-```sh
+:dollar: Eine neue Möglichkeit entwickeln, um Freunde zu finden.
+
+
+## MVP
+Eine Web Anwendung, die es ermöglicht anhand von gleichen Interessen Freunde zu finden. Anonymität liegt dabei anfangs im Fokus
+
+
+## Team
+- Mustername Mustermann, Scrum Master; Coding;
+- Mustername Mustermann; Coding;
+- Mustername Musternann; Coding;
+- Mustername Mustermann; Coding;
+- Mustername Mustermann; Coding;
+- Thanh Trung Le, Design; Coding;
+
+*Genauere Gruppenfunktion/"Jobs" im späteren Verlauf
+
+## Reflexion
+*Kommt im weiteren Projektverlauf
+
+*Was hatten Sie sich vorgenommen, was haben Sie geschafft, was warum nicht? Was ging gut mit dem von Ihnen gewählten Werkzeug, was nervte/frustrierte? Was ging schwerer als erwartet und welcher Trick hat geholfen?*
+ 
+# Getting Started
+
+## Dependency install
+
+```
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+## project run
 
-```sh
+Da unser Projekt ist in der Mobile-Ansicht, soll es am besten in der Mobile-Resolution aussehen.
+
+```
 npm run dev
 ```
 
-### Compile and Minify for Production
 
-```sh
-npm run build
-```

@@ -8,7 +8,6 @@
                 <h3 id="bio">Derzeit keine Matches!</h3>
                 <h5 class="bioheader" style="font-size: 1.5rem; text-align: left;">Interessen:</h5>
                 <h3 id="interessen">Kein Match</h3>
-                <img src="../components/Chat/ava3.png" alt="avatar" id="avatar" style="border-radius: 50%; width: 75px; height: 75px;"/>
             </div>
         </div>
 
@@ -217,7 +216,7 @@ export default {
             //MATCH Check
             if(accepted && otherAgree){
 
-                this.showGif()
+                
 
                 try {
                     let url = "https://api.airtable.com/v0/appnDxcyH2HxjmY7n/tbl24QvIsRox0377H"
@@ -276,16 +275,7 @@ export default {
 
         },
         showGif(){
-            document.getElementById("gif").style.display = "block";
-            document.getElementById("accept").style.display = "none";
-            document.getElementById("denied").style.display = "none";
 
-            setTimeout(this.hideGif, 2000)
-        },
-        hideGif(){
-            document.getElementById("gif").style.display = "none";
-            document.getElementById("accept").style.display = "block";
-            document.getElementById("denied").style.display = "block";
         }
     },
     created() {
@@ -353,25 +343,11 @@ img {
     position:absolute;
     bottom: 15%;
     left: 12%;
-    display:block;
 }
 
 #denied {
     position:absolute;
     bottom: 15%;
     right: 12%;
-    display:block;
-} 
-
-#gif {
-    width: 100%;
-    height: auto;
-    display: none;
-}
-
-#avatar {
-    position:absolute;
-    top: 15%;
-    right: 10%;
 }
 </style>
